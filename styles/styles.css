@@ -32,6 +32,10 @@ aside{
     color: #333;
     text-align: center;
 }
+aside img {
+    width: 200px;
+    height: auto;
+}
 footer {
     border-top: 1px solid;
 }
