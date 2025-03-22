@@ -1,0 +1,83 @@
+/* Define CSS variables for the color scheme */
+:root {
+    --primary-color: #2D6A4F; 
+    --secondary-color: #52B788; 
+    --accent1: #080808; 
+    --accent2: #B7E4C7;
+    --opacity-level: 0.9;
+  }
+  
+  body {
+    max-width: 1200px;
+    margin: 0 auto;
+    background-color: var(--accent2);
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.6;
+    color: var(--accent1);
+  }
+  
+  h1, h2 {
+    color: var(--primary-color);
+    font-family: 'Lobster', cursive;
+  }
+  
+  p {
+    color: var(--accent1);
+    font-family: 'Roboto', sans-serif;
+  }
+  
+  footer .social-media a {
+    text-decoration: none;
+  }
+  
+  .hero {
+    position: relative;
+  }
+  
+  .hero img {
+    display: block;
+    width: 100%;
+    height: auto; 
+  }
+  
+  .hero h1 {
+    position: absolute;
+    top: 20%;
+    left: 10%;
+    color: var(--secondary-color);
+    font-family: 'Lobster', cursive;
+    background-color: rgba(255, 255, 255, var(--opacity-level)); 
+    padding: 10px;
+    border-radius: 5px;
+  }
+  
+  .hero article {
+    position: absolute;
+    bottom: 10%;
+    left: 10%;
+    background-color: rgba(255, 255, 255, var(--opacity-level));
+    padding: 15px;
+    border-radius: 5px;
+  }
+  
+  .hero article img {
+    float: right;
+    max-width: 200px;
+    margin-left: 15px;
+  }
+  
+  /* Footer styling */
+  footer {
+    text-align: center;
+    background-color: var(--primary-color);
+    color: var(--accent2);
+    padding: 10px;
+  }
+  
+  footer img {
+    max-width: 30px;
+    margin: 0 10px;
+  }
+  nav a{
+    text-decoration: none;
+  }
