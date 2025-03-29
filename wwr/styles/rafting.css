@@ -177,27 +177,26 @@ footer .social-media a img {
 }
 
 .adventure-images {
-  display: flex;  /* Usar flexbox para alinear las imágenes */
-  justify-content: space-between;  /* Espacio uniforme entre las imágenes */
-  gap: 20px;  /* Espacio entre cada imagen */
-  flex-wrap: wrap;  /* Asegura que las imágenes se ajusten en varias líneas si es necesario */
+  display: flex;  
+  justify-content: space-between;  
+  gap: 20px;  
+  flex-wrap: wrap;  
 }
 
 .adventure-images figure {
-  margin: 0;  /* Elimina el margen predeterminado de los elementos figure */
-  width: calc(20% - 20px);  /* Ajusta el tamaño de las figuras, con espacio entre ellas */
+  margin: 0;  
+  width: calc(20% - 20px);  
 }
 
 .adventure-images img {
-  width: 100%;  /* Hace que las imágenes ocupen el 100% del ancho de su contenedor */
-  height: auto;  /* Mantiene la proporción original de la imagen */
-  border-radius: 10px;  /* Opcional: redondear las esquinas de las imágenes */
+  width: 100%;  
+  height: auto;  
+  border-radius: 10px; 
 }
 
 .adventure-images figcaption {
-  text-align: center;  /* Centra el texto de la leyenda */
-  font-family: 'Roboto', sans-serif;  /* Ajusta la tipografía */
-  font-weight: bold;  /* Hace que el texto sea negrita */
-  margin-top: 10px;  /* Agrega espacio entre la imagen y la leyenda */
+  text-align: center;  
+  font-family: 'Roboto', sans-serif;  
+  font-weight: bold; 
+  margin-top: 10px; 
 }
-
