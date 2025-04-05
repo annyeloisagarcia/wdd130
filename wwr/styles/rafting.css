@@ -203,3 +203,6 @@ footer .social-media a img {
 .team{
   width: 200px;
 }
+iframe{
+  border: 0;
+}
