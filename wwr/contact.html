@@ -81,13 +81,19 @@
             <label for="email">Your Email:</label>
             <input type="email" id="email" name="email" required>
 
-            <label for="inquiry">Purpose of Inquiry:</label>
-            <input type="radio" id="general" name="inquiry" value="General Inquiry" required>
-            <label for="general">General Inquiry</label><br>
-            <input type="radio" id="reservation" name="inquiry" value="Reservation Question" required>
-            <label for="reservation">Reservation Question</label><br>
-            <input type="radio" id="suggestion" name="inquiry" value="Website Suggestion" required>
-            <label for="suggestion">Website Suggestion</label>
+            <form>
+                <label for="generalInquiry">General Inquiry</label>
+                <input type="radio" id="generalInquiry" name="inquiry" value="General Inquiry">
+                
+                <label for="reservationQuestion">Reservation Question</label>
+                <input type="radio" id="reservationQuestion" name="inquiry" value="Reservation Question">
+                
+                <label for="websiteSuggestion">Website Suggestion</label>
+                <input type="radio" id="websiteSuggestion" name="inquiry" value="Website Suggestion">
+                
+                <!-- Other form elements go here -->
+            </form>
+            
 
             <label for="message">Your Message:</label>
             <textarea id="message" name="message" rows="4" required></textarea>
