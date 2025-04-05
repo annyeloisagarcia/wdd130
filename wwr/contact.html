@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Get in touch with Whitewater Rafting Adventures! Contact us for any inquiries, trip reservations, or general information about our rafting services.">
+    <meta name="author" content="Anny Garcia">
+    <title>Whitewater Rafting Adventures - Contact Us</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="styles/rafting.css">
+</head>
+<body>
+<header>
+    <img src="images/z-wwr-oars.png" alt="Logo">
+    <h1>Rafting Adventures</h1>
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="trips.html">Trips</a></li>
+            <li><a href="contact.html">Contact Us</a></li>
+        </ul>
+    </nav>
+</header>
+
+<main>
+    <div class="hero">
+        <img src="images/rafting58_600.jpg" alt="Rafting adventure">
+        <h1>Contact Us</h1>
+    </div>
+
+    <section>
+        <h2>Get in Touch</h2>
+        <p>If you have any questions, would like more information, or want to book a rafting trip, please fill out the contact form below or use the provided contact details.</p>
+    </section>
+
+    <section>
+        <h2>Company Information</h2>
+        <address>
+            <p><strong>Whitewater Rafting Adventures</strong></p>
+            <p>8th Street, Villa Consuelo Neighborhood, Santo Domingo, Dominican Republic. 1111</p>
+            <p>Phone: (232) 555-5555</p>
+            <p>Email: <a href="raftinginfo@whitewateradventures.com">raftinginfo@whitewateradventures.com</a></p>
+        </address>
+    </section>
+
+    <section>
+        <h2>Our Location</h2>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m19!1m8!1m3!1d242205.71341317505!2d-69.9360924!3d18.4626178!3m2!1i1024!2i768!4f13.1!4m8!3e6!4m0!4m5!1s0x8eaf89f1107ea5ab%3A0xd6c587b82715c164!2sSanto%20Domingo!3m2!1d18.4626178!2d-69.93609239999999!5e0!3m2!1sen!2sdo!4v1743867934091!5m2!1sen!2sdo" width="400" height="200" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+    </section>
+
+    <section>
+        <h2>Meet Our Team</h2>
+        <div class="team">
+            <figure>
+                <img src="images/employee1.jpg" alt="Employee 1">
+                <figcaption>Jane line - Guide</figcaption>
+            </figure>
+            <figure>
+                <img src="images/employee2.jpg" alt="Employee 2">
+                <figcaption>Marco cruz - Guide</figcaption>
+            </figure>
+            <figure>
+                <img src="images/employee3.jpg" alt="Employee 3">
+                <figcaption>Amy sanders - Customer Service</figcaption>
+            </figure>
+        </div>
+    </section>
+
+    <section>
+        <h2>Contact Form</h2>
+        <form action="submit_form.php" method="post" class="contact-form">
+            <label for="name">Your Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Your Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="inquiry">Purpose of Inquiry:</label>
+            <input type="radio" id="general" name="inquiry" value="General Inquiry" required>
+            <label for="general">General Inquiry</label><br>
+            <input type="radio" id="reservation" name="inquiry" value="Reservation Question" required>
+            <label for="reservation">Reservation Question</label><br>
+            <input type="radio" id="suggestion" name="inquiry" value="Website Suggestion" required>
+            <label for="suggestion">Website Suggestion</label>
+
+            <label for="message">Your Message:</label>
+            <textarea id="message" name="message" rows="4" required></textarea>
+
+            <label for="newsletter">
+                <input type="checkbox" id="newsletter" name="newsletter">
+                Please subscribe me to the monthly newsletter
+            </label>
+
+            <button type="submit">Submit</button>
+        </form>
+    </section>
+</main>
+
+<footer>
+    <p>&copy; 2025 Whitewater Rafting Adventures. 2025. Created by Anny.</p>
+    <nav class="sociallinks">
+        <a href="https://facebook.com"><img src="images/FB.webp" alt="Facebook"></a>
+        <a href="https://twitter.com"><img src="images/X-64.webp" alt="Twitter"></a>
+        <a href="https://instagram.com"><img src="images/instagram_icon-instagram_buttoninstegram-64.webp" alt="Instagram"></a>
+    </nav>
+    <p><a href="images/contact-wireframe.jpg" target="_blank">View Wireframe</a></p>
+</footer>
+
+</body>
+</html>
