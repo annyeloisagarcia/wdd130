@@ -206,3 +206,15 @@ footer .social-media a img {
 iframe{
   border: 0;
 }
+
+.grid-item img {
+  width: 35%;
+  height: auto;
+  border-radius: 10px;
+}
+
+.trip-card img {
+  width: 35%;
+  height: auto;
+  border-radius: 6px;
+}
