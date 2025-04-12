@@ -5,6 +5,7 @@
   --accent1: #080808; 
   --accent2: #B7E4C7;
   --opacity-level: 0.9;
+  
 }
 body {
   max-width: 1200px;
@@ -218,3 +219,4 @@ iframe{
   height: auto;
   border-radius: 6px;
 }
+
